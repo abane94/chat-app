@@ -1,5 +1,7 @@
 use cpal::traits::{DeviceTrait, HostTrait};
 
+mod audio_manager;
+
 pub fn list_devices() -> Result<(), anyhow::Error> {
     // To print raw ALSA errors to stderr during enumeration, comment out the line below:
     // #[cfg(target_os = "linux")]

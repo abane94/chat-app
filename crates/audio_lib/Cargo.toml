@@ -5,6 +5,10 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.102"
+# audiopus = "0.2.0"
 cpal = { version = "0.17.3" }
 # cpal = "0.17.3"
 hound = "3.5.1"
+# opus = "0.3.1"
+ringbuf = "0.5.0"
+ropus = "0.12.18"
